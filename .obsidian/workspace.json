@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Short Notes on File Ownership and Permissions"
             }
+          },
+          {
+            "id": "5a49732ce23aac85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -193,13 +207,23 @@
               "icon": "lucide-list",
               "title": "Outline of day1"
             }
+          },
+          {
+            "id": "a08071a3cf772046",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,10 +236,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbbec45150359dd8",
+  "active": "5a49732ce23aac85",
   "lastOpenFiles": [
-    "Day5/🚀Linux Logical Commands & Redirection.md",
     "Short Notes on File Ownership and Permissions.md",
+    "Untitled.md",
+    "Day5/🚀Linux Logical Commands & Redirection.md",
     "Day6",
     "Day4/📚Linux Man Pages Guide.md",
     "Day5",
