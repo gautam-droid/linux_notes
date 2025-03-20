@@ -1,0 +1,52 @@
+<h2>Moving Multiple Files with <code>mv</code></h2>
+
+<h3>1. Creating a Directory</h3>
+
+<p>Create a <code>scripts</code> directory:
+<code>sh
+mkdir scripts
+</code></p>
+
+<h3>2. Moving JavaScript Files</h3>
+
+<p>Move all <code>.js</code> files into <code>scripts</code> directory:
+<code>sh
+mv *.js scripts/
+</code></p>
+
+<h3>3. Verifying the Move</h3>
+
+<p>Check if the files are in <code>scripts</code>:
+<code>sh
+ls scripts
+</code></p>
+
+<h3>4. Using <code>-i</code> for Safe Moves</h3>
+
+<p>Create a test file:
+<code>sh
+echo "Test content" &gt; test.txt
+</code></p>
+
+<p>Check if <code>home.html</code> exists:
+<code>sh
+ls home.html
+</code></p>
+
+<p>If it doesn’t exist, create it:
+<code>sh
+echo "Home page" &gt; home.html
+</code></p>
+
+<p>Move <code>test.txt</code> with overwrite prompt:
+<code>sh
+mv -i test.txt home.html
+</code></p>
+
+<h3>5. Additional <code>mv</code> Options</h3>
+
+<ul>
+<li><strong><code>-f</code></strong>: Force move without prompt</li>
+<li><strong><code>-n</code></strong>: Do not overwrite existing files</li>
+<li><strong><code>-v</code></strong>: Verbose mode, explaining actions</li>
+</ul>

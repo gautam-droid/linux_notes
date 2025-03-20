@@ -1,0 +1,102 @@
+<p>Usage:to open the markdown in the browser
+Convert the Markdown file to HTML and open it in a browser:</p>
+
+<p>markdown file.md > file.html
+xdg-open file.html  # Open the rendered HTML file in the default browser</p>
+
+<h3>Day 1 - File and Directory Operations</h3>
+
+<ol>
+<li><strong>cd ~ or cd</strong> : to go to home  </li>
+<li><strong>cd /</strong> : to go to root  </li>
+<li><strong>tree /</strong> : to display tree-like structure from root  </li>
+<li><strong>tree folderName</strong> : to display tree-like structure from folderName  </li>
+<li><strong>pwd</strong> : to print current working directory  </li>
+<li><p><strong>ls -l</strong> : list directory in detailed manner; similar commands related to ls are:</p>
+
+<ul>
+<li><strong>ls /home</strong></li>
+<li><strong>ls /etc</strong></li>
+<li><strong>ls /bin</strong></li>
+</ul>
+
+<p><strong>Note:</strong></p>
+
+<ul>
+<li><strong>/home</strong>: user dirs are stored  </li>
+<li><strong>/bin</strong>: binary files are stored that need to be available for all users  </li>
+<li><strong>/etc</strong>: system config files are stored  </li>
+</ul></li>
+<li><p><strong>mkdir</strong> : to make a dir  </p></li>
+<li><strong>mkdir -p ~/project/practice/subdirectory</strong> : The <code>-p</code> option allows us to create parent directories if they don't exist. This command creates a <code>practice</code> directory inside your <code>project</code> directory, and a <code>subdirectory</code> inside <code>practice</code>.  </li>
+<li><strong>cd .. or cd -</strong> : to go back one level or move up one level in dir tree or previous directory  </li>
+<li><strong>mkdir dir1 dir2 dir3</strong> : to create multiple directories</li>
+</ol>
+
+<hr />
+
+<h3>Creating a File</h3>
+
+<ol>
+<li><strong>touch file1.txt</strong> : to create an empty file or update the timestamp of existing files  </li>
+<li><strong>echo "Hello" > file.txt</strong> : <code>echo</code> prints text (if used alone), and <code>&gt;</code> redirects the text into a file, creating the file if it doesn't exist.  </li>
+<li><strong>cat file.txt</strong> : to view the contents of a file  </li>
+<li><strong>echo "This is a new line" >> file.txt</strong> : <code>&gt;&gt;</code> appends to the file instead of overwriting it.</li>
+</ol>
+
+<hr />
+
+<h3>Copying, Moving, and Renaming Files</h3>
+
+<ol>
+<li><strong>cp file.txt dir1/</strong> : copy <code>file1.txt</code> to <code>dir1</code>  </li>
+<li><strong>cp file.txt dir1/file_copy.txt</strong> : copy and rename the file in <code>dir1</code>  </li>
+<li><strong>mv file.txt dir2/</strong> : moves the file into <code>dir2</code>  </li>
+<li><strong>mv file.txt newFileName.txt</strong> : renames the filename  </li>
+<li><strong>cp -r dir3 dir2/</strong> : <code>-r</code> option tells <code>cp</code> to copy dirs recursively (including all subdirectories and files)</li>
+</ol>
+
+<p><strong>Note:</strong> <br />
+While moving/copying, note that the directory is present inside a particular working dir. If not present, then use the relative path. <br />
+For example: <br />
+If I'm inside <code>dir1</code> and want to move a file to <code>dir3</code>, and if <code>dir3</code> is not present inside <code>dir1</code>, then I have to use the command: <br />
+<code>bash
+mv fileName.txt ../dir3
+</code> <br />
+Here, I have used the relative path.</p>
+
+<hr />
+
+<h2>Viewing and Editing Files</h2>
+
+<ol>
+<li><p><strong><code>cat &lt;&lt;anyNameofDelimeter fileName.txt</code></strong> <br />
+The content goes here <br />
+and here too some content <br />
+<code>anyNameofDelimeter</code> <br />
+A here-document (<code>&lt;&lt;</code>) allows creating files with multiple lines of predefined content, using a custom delimiter, which is then redirected into a file.</p></li>
+<li><p><strong><code>cat fileName.txt</code></strong> <br />
+To view the contents of a file.</p></li>
+<li><p><strong><code>nl fileName.txt</code></strong> <br />
+To view the contents of a file with the line numbers.</p></li>
+<li><p><strong><code>nano multiline.txt</code></strong> <br />
+To edit the file using nano, a simple text editor.</p></li>
+</ol>
+
+<hr />
+
+<h2>Finding Files in Linux</h2>
+
+<ol>
+<li><p><strong><code>find . -name "*.txt"</code></strong> <br />
+To find all text files in the current directory.</p></li>
+<li><p><strong><code>sudo find / -name "passwd"</code></strong> <br />
+To find the file named "passwd" starting from the root directory (<code>/</code>). <code>sudo</code> is used to elevate permissions since many system directories are not readable by regular users. So, <code>sudo</code> allows us to search these protected areas.</p></li>
+<li><p><strong><code>find ~ -size +1M</code></strong> <br />
+To find any file larger than 1MB. <br />
+<em>Note:</em> We can use the <code>-</code> sign for negative size, meaning files smaller than the respective size.</p></li>
+<li><p><strong><code>find ~ -mtime -1</code></strong> <br />
+To search for files modified within a certain time frame. Here, <code>-1</code> represents files modified within the last day.</p></li>
+<li><p><strong>which python</strong> 
+To find the location of exe files</p></li>
+</ol>
