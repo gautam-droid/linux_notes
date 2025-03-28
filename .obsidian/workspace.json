@@ -11,10 +11,14 @@
             "id": "90c777546d424888",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "to make notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "to make notes"
             }
           }
         ]
@@ -178,11 +182,11 @@
   },
   "active": "90c777546d424888",
   "lastOpenFiles": [
+    "Day4/📚Linux Man Pages Guide.md",
     "Linux Load Average - Summary.md",
     "to make notes.md",
     "important note.md",
     "Day5/🚀Linux Logical Commands & Redirection.md",
-    "Day4/📚Linux Man Pages Guide.md",
     "Day6/Short Notes on File Ownership and Permissions.md",
     "Day1/File and Dir operations.md",
     "Day2/📂Moving and Organizing Files in Linux.md",

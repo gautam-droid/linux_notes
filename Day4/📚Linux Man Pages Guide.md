@@ -22,14 +22,14 @@
 
 **Man uses the less pager and Vim keybindings:**
 
-|Key|Action|
-|---|---|
-|**j**|Forward (down) one line|
-|**k**|Backward (up) one line|
-|**Ctrl + f**|Forward one window|
-|**Ctrl + b**|Backward one window|
-|**g**|Go to first line|
-|**G**|Go to the last line|
+| Key          | Action                  |
+| ------------ | ----------------------- |
+| **j**        | Forward (down) one line |
+| **k**        | Backward (up) one line  |
+| **Ctrl + f** | Forward one window      |
+| **Ctrl + b** | Backward one window     |
+| **g**        | Go to first line        |
+| **G**        | Go to the last line     |
 
 ---
 

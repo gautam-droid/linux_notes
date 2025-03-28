@@ -1,6 +1,9 @@
 1.file compression
 2.copying and renaming
 3.soft link and hardlink
+4.uptime
+5.authlog
+6.services running
 
 ### **Tar Command Summary**
 
