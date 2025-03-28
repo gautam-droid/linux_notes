@@ -1,7 +1,4 @@
-to be looked later
 Good question! In the **hard link** case, if you want `main_software` to point to a new version, you **must delete the file and recreate the hard link**. However, in the **soft link** case, you don’t need to delete anything—just update the symbolic link.
-
-Now, I’ll **expand my explanation without removing anything from my previous response** and provide a **modified, complete solution** that works for dynamically switching versions.
 
 ---
 
