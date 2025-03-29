@@ -1,8 +1,8 @@
 - [x] 1.file compression (done)
 - [x] 2.copying and renaming
 - [x] 3.soft link and hardlink
-- [ ] 4.uptime
-- [ ] 5.authlog
+- [x] 4.uptime
+- [x] 5.authlog
 - [ ] 6.services running
 - [ ] 7.available memory disks
 - [ ] 8.bg/fg process
