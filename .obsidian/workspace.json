@@ -22,6 +22,48 @@
             }
           },
           {
+            "id": "3e19266810b7e6af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "to make notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "to make notes"
+            }
+          },
+          {
+            "id": "60f0c33e42304677",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setting Up SSH Key-Based Authentication.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Setting Up SSH Key-Based Authentication"
+            }
+          },
+          {
+            "id": "7d694b20a39609fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD)"
+            }
+          },
+          {
             "id": "c424b3943738eeca",
             "type": "leaf",
             "state": {
@@ -50,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "523a77c82cf64cd7",
@@ -210,10 +251,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c424b3943738eeca",
+  "active": "7d694b20a39609fd",
   "lastOpenFiles": [
+    "Setting Up SSH Key-Based Authentication.md",
+    "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
     "to make notes.md",
+    "HOW TO LOGIN INTO YOUR HOST COMPUTER REMOTELY USING SSH.txt",
+    "Pasted image 20250331191709.png",
+    "how to setup ssh key authentication.md",
+    "Day15",
     "Process signals.md",
+    "Day14/Secure File Transfer (SFTP) Cheat Sheet.md",
+    "Day14",
     "Day13/Computer Control Commands.md",
     "Day11/Linux Load Average - Summary.md",
     "Day13",
@@ -234,8 +283,6 @@
     "Day01/File and Dir operations.md",
     "Day03/🗑️Removing Files & Directories in Linux.md",
     "Day07/Absolute vs Relative Paths.md",
-    "Day07",
-    "Day06",
-    "Day05"
+    "Day07"
   ]
 }

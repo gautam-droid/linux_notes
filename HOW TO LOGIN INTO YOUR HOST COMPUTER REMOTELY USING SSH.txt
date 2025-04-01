@@ -1,0 +1,25 @@
+HOW TO LOGIN INTO REMOTE SERVER USING SSH using user login(username and password)
+
+Step1:
+install dropbear, openssh server for self hosting your linux distro
+and openssh client (must)
+as openssh server is giving problem in ubuntu go with the lightweight dropbear
+Step2:
+run the command : "sudo systemctl status dropbear" , if you are using dropbear to check the status 
+run the command : "sudo systemctl status ssh" , if you are using openssh server to check the status 
+Step3:
+If status shows , inactive then start the server using the following command
+run the command : "sudo systemctl start dropbear" , if you are using dropbear to start the server and replace "start" with "stop" to stop it 
+Step4:
+Open a new terminal or the previous terminal or putty or termux or any other  terminal to connect to the host computer
+Step5:
+run the command: "sudo ssh username@ip", you will asked a password for running the sudo command and one more password to log into the server.
+Step6:
+To get the ip run the command "ifconfig" and search for "inet",the digits followed by the colon is user ip.And to get the username , 
+run the command "whoami"
+Step7:Now connect to the server using the command given in step5 replacing it with the host's username and ip and then enter the password.
+Step8:To check the connection , run the command "who", it will show a lists of users who are currently using your distro,find something like /pts/0 or /pts/any_number , if its present then you are already have your session active or user is logged in
+Step9: To kill a particular ssh connection , run the command "sudo fuser -k /dev/pts/<the number>",it will disconnect the user from the ssh session.
+Step10:again check using "who" command.
+Step11:If you want to logout ,type "exit" and if you want to stop the server , run the command listed in Step2
+
