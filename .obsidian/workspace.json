@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
-                "mode": "preview",
+                "file": "Process signals.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD)"
+              "title": "Process signals"
             }
           },
           {
@@ -253,9 +253,9 @@
   },
   "active": "7d694b20a39609fd",
   "lastOpenFiles": [
-    "Setting Up SSH Key-Based Authentication.md",
-    "HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
+    "Day15/Setting Up SSH Key-Based Authentication.md",
     "to make notes.md",
+    "Day15/HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
     "HOW TO LOGIN INTO YOUR HOST COMPUTER REMOTELY USING SSH.txt",
     "Pasted image 20250331191709.png",
     "how to setup ssh key authentication.md",

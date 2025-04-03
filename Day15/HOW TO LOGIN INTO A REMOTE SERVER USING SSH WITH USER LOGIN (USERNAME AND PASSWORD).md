@@ -1,5 +1,3 @@
-# 🖥️ HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD)
-
 ## 🔹 Step 1: Install Required Packages
 
 📥 Install **OpenSSH Server** (for self-hosting your Linux distro) or **Dropbear** (a lightweight SSH server and client).
