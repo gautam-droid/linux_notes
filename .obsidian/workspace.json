@@ -78,6 +78,34 @@
             }
           },
           {
+            "id": "fe641e3fa99e5bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROJECT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROJECT"
+            }
+          },
+          {
+            "id": "094507676367d178",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "timetable.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "timetable"
+            }
+          },
+          {
             "id": "c424b3943738eeca",
             "type": "leaf",
             "state": {
@@ -106,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -265,9 +293,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d78d5e01ab6faa5d",
+  "active": "094507676367d178",
   "lastOpenFiles": [
-    "Untitled.md",
+    "PROJECT.md",
+    "timetable.md",
     "sql commands learnt so far.md",
     "Process signals.md",
     "things which i have learnt in sql so far",
