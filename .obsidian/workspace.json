@@ -8,133 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ec30ecfafb0a071",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "to make notes.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "to make notes"
-            }
-          },
-          {
-            "id": "3e19266810b7e6af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "to make notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "to make notes"
-            }
-          },
-          {
-            "id": "60f0c33e42304677",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Setting Up SSH Key-Based Authentication.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Setting Up SSH Key-Based Authentication"
-            }
-          },
-          {
-            "id": "7d694b20a39609fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Process signals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Process signals"
-            }
-          },
-          {
-            "id": "d78d5e01ab6faa5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sql commands learnt so far.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sql commands learnt so far"
-            }
-          },
-          {
-            "id": "fe641e3fa99e5bf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROJECT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PROJECT"
-            }
-          },
-          {
-            "id": "094507676367d178",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "timetable.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "timetable"
-            }
-          },
-          {
-            "id": "c424b3943738eeca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Process signals.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Process signals"
-            }
-          },
-          {
             "id": "c277aadaeb8a1a64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Control Commands.md",
+                "file": "vimium_c_shortcuts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Control Commands"
+              "title": "vimium_c_shortcuts"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -293,15 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "094507676367d178",
+  "active": "c277aadaeb8a1a64",
   "lastOpenFiles": [
-    "PROJECT.md",
-    "timetable.md",
-    "sql commands learnt so far.md",
     "Process signals.md",
+    "timetable.md",
+    "PROJECT.md",
+    "sql commands learnt so far.md",
+    "to make notes.md",
     "things which i have learnt in sql so far",
     "Day15/Setting Up SSH Key-Based Authentication.md",
-    "to make notes.md",
     "Day15/HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
     "HOW TO LOGIN INTO YOUR HOST COMPUTER REMOTELY USING SSH.txt",
     "Pasted image 20250331191709.png",
