@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "timetable.md",
+                "file": "Day14/Secure File Transfer (SFTP) Cheat Sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "timetable"
+              "title": "Secure File Transfer (SFTP) Cheat Sheet"
             }
           }
         ]
@@ -182,16 +182,16 @@
   },
   "active": "cc1b48ed1e3baaa7",
   "lastOpenFiles": [
+    "Day15/HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
+    "Day09/Understanding the `cp` Command.md",
+    "timetable.md",
     "vimium_c_shortcuts.md",
-    "timetable.md",
-    "timetable.md",
     "Process signals.md",
     "PROJECT.md",
     "sql commands learnt so far.md",
     "to make notes.md",
     "things which i have learnt in sql so far",
     "Day15/Setting Up SSH Key-Based Authentication.md",
-    "Day15/HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
     "HOW TO LOGIN INTO YOUR HOST COMPUTER REMOTELY USING SSH.txt",
     "Pasted image 20250331191709.png",
     "how to setup ssh key authentication.md",
@@ -208,7 +208,6 @@
     "Day10/Important Note.md",
     "Day10",
     "Day08/File Compression.md",
-    "Day09/Understanding the `cp` Command.md",
     "Day02/📂Moving and Organizing Files in Linux.md",
     "Day09",
     "Day08",
