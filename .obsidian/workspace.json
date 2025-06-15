@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "c9ce9c345baae64b",
+        "id": "b7b8274163cd55cf",
         "type": "tabs",
         "children": [
           {
-            "id": "11e5e4408c6d14da",
+            "id": "9bc7abfb6f033298",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
+                "file": "UNIT 2 DVA.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "UNIT 2 DVA"
+            }
+          },
+          {
+            "id": "e77613be80047c38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit V DVA.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unit V DVA"
+            }
+          },
+          {
+            "id": "46a3b1311a77b4e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit V DVA.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unit V DVA"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -150,19 +179,9 @@
               "icon": "lucide-list",
               "title": "Outline of day1"
             }
-          },
-          {
-            "id": "a08071a3cf772046",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -180,9 +199,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11e5e4408c6d14da",
+  "active": "46a3b1311a77b4e4",
   "lastOpenFiles": [
-    "Untitled.md",
+    "UNIT 2 DVA.md",
+    "Unit I DVA.md",
+    "Unit V DVA.md",
+    "Untitled",
+    "DVA.md",
+    "DVA.html",
     "Day14/Secure File Transfer (SFTP) Cheat Sheet.md",
     "Day15/HOW TO LOGIN INTO A REMOTE SERVER USING SSH WITH USER LOGIN (USERNAME AND PASSWORD).md",
     "Day09/Understanding the `cp` Command.md",
@@ -210,13 +234,9 @@
     "Day10",
     "Day08/File Compression.md",
     "Day02/📂Moving and Organizing Files in Linux.md",
-    "Day09",
-    "Day08",
     "Day06/Short Notes on File Ownership and Permissions.md",
     "Day04/📚Linux Man Pages Guide.md",
     "Day05/🚀Linux Logical Commands & Redirection.md",
-    "Day01/File and Dir operations.md",
-    "Day03/🗑️Removing Files & Directories in Linux.md",
-    "Day07/Absolute vs Relative Paths.md"
+    "Day01/File and Dir operations.md"
   ]
 }
