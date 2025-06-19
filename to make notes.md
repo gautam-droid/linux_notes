@@ -7,7 +7,7 @@
 - [ ] 7.available memory disks
 - [ ] 8.bg/fg process
 - [ ] 9.listing and finding processes
-to make notes on ssh keygeneration
+- [x] 10.to make notes on ssh keygeneration
 #doubt
 to kill an sftp server, 
 like sudo lsof -i :22 - to get pid
