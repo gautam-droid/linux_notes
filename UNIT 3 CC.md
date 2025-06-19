@@ -181,3 +181,115 @@ All content is neatly structured by headings and key points.
 
 ---
 
+---
+
+## **5. Key Functions of a Hypervisor**
+
+A **hypervisor** manages virtual machines (VMs) on a host system. It is responsible for resource abstraction, allocation, security, and performance in a virtualized environment.
+
+### **Key Functions**
+
+1. **Resource Allocation and Management**
+    
+    - Allocates CPU, memory, storage, and network to each VM
+        
+    - Ensures **isolation** and fair **resource distribution**
+        
+2. **VM Creation and Lifecycle Management**
+    
+    - Functions: **Create**, **Start**, **Pause**, **Resume**, **Delete**
+        
+    - Manages: **Snapshots**, **Cloning**, **Migration**
+        
+3. **Isolation**
+    
+    - Ensures **fault tolerance** and **security** between VMs
+        
+    - Prevents one VM from affecting others
+        
+4. **Hardware Abstraction**
+    
+    - Presents **virtual hardware** to guest OS
+        
+    - Guest OS works **unmodified**
+        
+5. **Scheduling**
+    
+    - Manages **vCPU scheduling** over physical CPUs
+        
+    - Ensures **load balancing** and **efficiency**
+        
+6. **Memory Management**
+    
+    - Allocates **virtual memory** to VMs
+        
+    - Techniques: **Ballooning**, **Swapping**
+        
+7. **Device and I/O Virtualization**
+    
+    - Provides **virtual devices** (e.g., network, disk)
+        
+    - Manages and routes **I/O operations**
+        
+8. **Security and Access Control**
+    
+    - Enforces **security policies**
+        
+    - Prevents **unauthorized access** and monitors **VM behavior**
+        
+9. **VM Migration**
+    
+    - Enables **live migration** (no downtime)
+        
+    - Supports **load balancing**, **hardware maintenance**
+        
+10. **Performance Monitoring and Optimization**
+    
+
+- Tracks **resource usage**, **VM metrics**
+    
+- Dynamically **optimizes** performance
+    
+
+---
+
+## **6. Logical Partitioning (LPAR) vs Traditional Virtualization**
+
+### **What is Logical Partitioning (LPAR)?**
+
+- **Hardware-level** partitioning mainly used in **IBM mainframes** and **enterprise servers**
+    
+- Each **LPAR = independent system** with its own OS and hardware resources
+    
+- Managed by **firmware or hardware partition manager**
+    
+- Offers **near-native performance**
+    
+
+### **Key Characteristics**
+
+- **Hardware-based isolation**
+    
+- **Dedicated resources** (CPU, memory, I/O)
+    
+- **Low overhead**, **high performance**
+    
+- Common in **IBM Power Systems**, **mainframes**
+    
+
+---
+
+### **Comparison Table: LPAR vs Traditional Virtualization**
+
+| Feature                 | **LPAR**                           | **Traditional Virtualization**           |
+| ----------------------- | ---------------------------------- | ---------------------------------------- |
+| **Partitioning Level**  | Hardware/Firmware                  | Software (Hypervisor)                    |
+| **Resource Allocation** | Dedicated                          | Shared/Virtualized                       |
+| **Performance**         | Near-native                        | Some overhead                            |
+| **Isolation**           | Hardware-enforced                  | Hypervisor-enforced                      |
+| **Flexibility**         | Less flexible for dynamic scaling  | Highly flexible                          |
+| **Common Usage**        | Enterprise servers, IBM mainframes | Desktops, Cloud, General-purpose servers |
+| **Examples**            | IBM Power LPAR                     | VMware ESXi, Xen, KVM                    |
+
+---
+
