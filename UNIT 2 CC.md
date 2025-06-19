@@ -100,3 +100,134 @@
     
 
 ---
+
+---
+
+### **Service-Oriented Architecture (SOA)**: modular services, loose coupling, interoperability, cloud integration
+
+---
+
+#### **What is SOA?**
+
+- Design approach: service-based
+    
+- Communication: network protocols
+    
+- Characteristics: loosely coupled, reusable, discoverable
+    
+- Performs: specific business functions
+    
+
+#### **Key Concepts**
+
+- **Service**: unit of functionality (e.g., customer data, payments)
+    
+- **Loose Coupling**: minimal dependency
+    
+- **Interoperability**: standard protocols
+    
+- **Discoverability**: services in a registry
+    
+- **Reusability**: reusable across apps/processes
+    
+
+#### **Core Components of SOA**
+
+- **Service Provider**: creates, publishes services
+    
+- **Service Consumer**: consumes services
+    
+- **Service Registry**: directory of services
+    
+- **Service Contract**: defines interfaces/protocols
+    
+
+---
+
+#### **How SOA Works**
+
+- Breaks complex apps into smaller services
+    
+- Independent development & deployment
+    
+- Communicates via: web services (SOAP, REST), messaging
+    
+
+---
+
+### **SOA in Cloud Computing**
+
+#### **1. SOA as Foundation for Cloud Design**
+
+- **Modularity & Reusability**: storage, databases, authentication
+    
+- **Loose Coupling**: independent evolution, scalability
+    
+- **Standardized Communication**: HTTP, REST, SOAP, messaging queues
+    
+
+#### **2. SOA in Cloud Implementation**
+
+- **Service Composition**: combining services (auth, payment, processing)
+    
+- **Multi-Tenancy**: shared services for many users
+    
+- **Elasticity & Dynamic Binding**: dynamic service allocation
+    
+- **Integration**: hybrid cloud, service interfaces
+    
+
+---
+
+### **Conceptual Cloud Model**: abstraction of cloud services, layer-based delivery, infrastructure to end-user
+
+---
+
+#### **Three Core Layers of Cloud Model**
+
+- **IaaS (Infrastructure as a Service)**
+    
+    - Provides: VMs, storage, network
+        
+    - User Responsibility: OS, middleware, apps
+        
+    - Examples: Amazon EC2, Azure VMs
+        
+- **PaaS (Platform as a Service)**
+    
+    - Provides: dev platforms, tools, databases
+        
+    - User Responsibility: app code, deployment
+        
+    - Examples: Google App Engine, Heroku
+        
+- **SaaS (Software as a Service)**
+    
+    - Provides: ready-made apps
+        
+    - User Responsibility: app usage, managing user data
+        
+    - Examples: Gmail, Office 365, Salesforce
+        
+
+---
+
+#### **Additional Layers (optional in some models)**
+
+- **BPaaS**: Business Process as a Service
+    
+- **SECaaS**: Security as a Service
+    
+
+---
+
+#### **How the Layers Work Together**
+
+- **IaaS**: foundation infrastructure
+    
+- **PaaS**: built on IaaS, adds dev tools
+    
+- **SaaS**: uses PaaS & IaaS to deliver apps
+    
+
+---
