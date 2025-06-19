@@ -231,3 +231,209 @@
     
 
 ---
+
+---
+
+### **Cloud Stack**: layered technologies, cloud infrastructure, build-deploy-operate, foundation of cloud services
+
+---
+
+### **What is a Cloud Stack?**
+
+- Technology stack for cloud computing
+    
+- Combines hardware, software, virtualization
+    
+- Enables cloud functionalities: storage, compute, networking, applications
+    
+
+---
+
+### **Components of a Cloud Stack**
+
+#### **1. Hardware Layer (Physical Infrastructure)**
+
+- Physical servers
+    
+- Storage devices
+    
+- Networking equipment: switches, routers
+    
+- Data centers
+    
+- Power & rack systems
+    
+
+#### **2. Virtualization Layer**
+
+- Abstracts hardware into virtual machines
+    
+- Enables resource pooling & efficiency
+    
+- Tools: VMware ESXi, Microsoft Hyper-V, KVM
+    
+
+#### **3. Infrastructure Layer (IaaS)**
+
+- Provides virtual compute, storage, and network
+    
+- User-managed provisioning
+    
+- Examples: Amazon EC2, OpenStack, Azure VMs
+    
+
+#### **4. Platform Layer (PaaS)**
+
+- OS, middleware, runtime environments
+    
+- App development support
+    
+- Hides infrastructure complexity
+    
+- Examples: Google App Engine, Heroku, Azure App Services
+    
+
+#### **5. Application Layer (SaaS)**
+
+- Full-featured software over the internet
+    
+- No infrastructure or platform management by user
+    
+- Examples: Gmail, Salesforce, Dropbox
+    
+
+#### **6. Management and Orchestration Layer**
+
+- Automation tools
+    
+- Deployment & resource monitoring
+    
+- Billing, performance, security
+    
+- Examples: Kubernetes, OpenStack Horizon, CloudStack
+    
+
+---
+
+### **Significance of Cloud Stack in Cloud Computing**
+
+- **End-to-End Solution**: full system from hardware to application
+    
+- **Resource Abstraction & Efficiency**: virtualization, pooling, orchestration
+    
+- **Modularity & Scalability**: independent scalable layers
+    
+- **Service Delivery Models**: enables IaaS, PaaS, SaaS
+    
+- **Simplified Management**: automated provisioning, scaling, security
+    
+- **Interoperability**: standard APIs, hybrid cloud compatibility
+    
+
+---
+
+Here’s the **keyword extraction** for both topics: **Computing on Demand** and **Information Lifecycle Management (ILM)**, organized by headings and key points.
+
+---
+
+## **Computing on Demand**
+
+**Definition**: Real-time provisioning of computing resources (e.g., CPU, storage, bandwidth) over the internet based on user needs, without upfront investment.
+
+---
+
+### **Key Characteristics**
+
+- **Dynamic Resource Allocation** – provision resources as needed
+    
+- **Pay-per-use Model** – only pay for what is used
+    
+- **Elasticity** – auto-scale up or down based on workload
+    
+- **Self-Service** – users provision via web or API
+    
+- **Rapid Provisioning** – near-instant access to resources
+    
+
+---
+
+### **Benefits for Cloud Users**
+
+|**Benefit**|**Explanation**|
+|---|---|
+|**Cost Efficiency**|No upfront hardware costs; pay only for usage|
+|**Scalability & Flexibility**|Adjust to workload changes dynamically|
+|**Improved Resource Utilization**|Reduces waste; better efficiency|
+|**Faster Time to Market**|Quick resource setup speeds up app deployment|
+|**Focus on Core Business**|Less infrastructure management; more time for core tasks|
+|**Global Accessibility**|Access resources anytime, anywhere|
+|**Reliability & Availability**|Cloud redundancy ensures uptime|
+
+---
+
+### **Example**
+
+**E-commerce site**:
+
+- Auto-scales during sales
+    
+- Shrinks resources post-sale
+    
+- Saves costs and maintains user experience
+    
+
+---
+
+## **Information Lifecycle Management (ILM)**
+
+**Definition**: A strategy for managing data from creation to secure disposal, optimizing storage, access, and compliance.
+
+---
+
+### **Phases of the Information Lifecycle**
+
+1. **Creation / Capture**
+    
+    - Data generation from users, sensors, or apps
+        
+2. **Storage**
+    
+    - Data stored based on frequency and performance needs
+        
+    - Examples: hot vs. cold storage
+        
+3. **Usage**
+    
+    - Data accessed for operations, decision-making
+        
+4. **Retention**
+    
+    - Keep data per legal/business rules
+        
+5. **Archiving**
+    
+    - Infrequently accessed data stored long-term (e.g., for compliance)
+        
+6. **Deletion / Disposal**
+    
+    - Secure destruction of obsolete or redundant data
+        
+
+---
+
+### **Importance in Cloud Storage**
+
+- Efficient data handling
+    
+- Cost-optimized storage allocation
+    
+- Data lifecycle control
+    
+- Compliance with data regulations
+    
+- Enhances data governance and security
+    
+
+---
+
+Let me know if you'd like a table format, visual summary, or the next topic!
