@@ -331,11 +331,7 @@
     
 
 ---
-
-Here’s the **keyword extraction** for both topics: **Computing on Demand** and **Information Lifecycle Management (ILM)**, organized by headings and key points.
-
 ---
-
 ## **Computing on Demand**
 
 **Definition**: Real-time provisioning of computing resources (e.g., CPU, storage, bandwidth) over the internet based on user needs, without upfront investment.
@@ -359,15 +355,15 @@ Here’s the **keyword extraction** for both topics: **Computing on Demand** and
 
 ### **Benefits for Cloud Users**
 
-|**Benefit**|**Explanation**|
-|---|---|
-|**Cost Efficiency**|No upfront hardware costs; pay only for usage|
-|**Scalability & Flexibility**|Adjust to workload changes dynamically|
-|**Improved Resource Utilization**|Reduces waste; better efficiency|
-|**Faster Time to Market**|Quick resource setup speeds up app deployment|
-|**Focus on Core Business**|Less infrastructure management; more time for core tasks|
-|**Global Accessibility**|Access resources anytime, anywhere|
-|**Reliability & Availability**|Cloud redundancy ensures uptime|
+| **Benefit**                       | **Explanation**                                          |
+| --------------------------------- | -------------------------------------------------------- |
+| **Cost Efficiency**               | No upfront hardware costs; pay only for usage            |
+| **Scalability & Flexibility**     | Adjust to workload changes dynamically                   |
+| **Improved Resource Utilization** | Reduces waste; better efficiency                         |
+| **Faster Time to Market**         | Quick resource setup speeds up app deployment            |
+| **Focus on Core Business**        | Less infrastructure management; more time for core tasks |
+| **Global Accessibility**          | Access resources anytime, anywhere                       |
+| **Reliability & Availability**    | Cloud redundancy ensures uptime                          |
 
 ---
 
@@ -433,6 +429,201 @@ Here’s the **keyword extraction** for both topics: **Computing on Demand** and
     
 - Enhances data governance and security
     
+
+---
+
+---
+
+## **ILM in Cloud Storage**
+
+**Definition**: Integration of Information Lifecycle Management (ILM) with cloud storage to optimize cost, performance, security, and data governance.
+
+---
+
+### **Common Cloud Storage Tiers**
+
+- **Hot Storage**: frequently accessed, low latency, high availability  
+    _Example: Amazon S3 Standard_
+    
+- **Cool Storage**: infrequently accessed, still needs fast retrieval  
+    _Example: S3 Standard-IA_
+    
+- **Cold/Archive Storage**: rarely accessed, long-term storage  
+    _Example: Amazon Glacier, Azure Archive_
+    
+
+---
+
+### **Key Aspects of ILM in Cloud**
+
+| **Aspect**                 | **Explanation**                                  |
+| -------------------------- | ------------------------------------------------ |
+| **Cost Optimization**      | Tiering based on usage saves costs               |
+| **Performance Efficiency** | Hot data stays on fast storage                   |
+| **Compliance & Security**  | Ensures data retention laws (e.g., GDPR, HIPAA)  |
+| **Data Governance**        | Maintains integrity, access controls             |
+| **Simplified Management**  | Automates lifecycle tasks (migration, archiving) |
+| **Disaster Recovery**      | Critical data is backed up for recovery          |
+
+---
+
+### **ILM Strategies in Cloud**
+
+- **Automated Tiering** – move data between storage classes
+    
+- **Retention Policies** – define data retention duration
+    
+- **Encryption & Access Control** – secure data in storage and transit
+    
+- **Backup & Replication** – ensure availability and durability
+    
+
+---
+
+## **Cloud Analytics**
+
+**Definition**: Use of cloud-based platforms to analyze, process, and visualize big data using scalable and distributed infrastructure.
+
+---
+
+### **Why Cloud Analytics Is Important**
+
+- Handles massive, diverse datasets
+    
+- Enables **real-time insights** and **predictive analytics**
+    
+- Scalable infrastructure
+    
+- Global collaboration
+    
+
+---
+
+### **Key Roles of Cloud Analytics**
+
+1. **Scalable Data Processing**
+    
+    - Parallel processing of big data
+        
+    - Tools: Amazon EMR, Google BigQuery, Azure Synapse
+        
+2. **Cost-Effective Analytics**
+    
+    - Pay-as-you-go model
+        
+    - No local infrastructure needed
+        
+3. **Real-Time & Predictive Analytics**
+    
+    - Stream processing
+        
+    - ML model integration
+        
+4. **Data Integration & Management**
+    
+    - Structured/unstructured data unification
+        
+    - Data cleansing, transformation
+        
+5. **Enhanced Collaboration**
+    
+    - Cloud dashboards accessible globally
+        
+6. **AI/ML Integration**
+    
+    - Built-in ML tools
+        
+    - Train & deploy models easily
+        
+
+---
+
+### **Cloud Analytics Services**
+
+| **Provider**    | **Services**                      | **Description**                                       |
+| --------------- | --------------------------------- | ----------------------------------------------------- |
+| AWS             | Redshift, Athena, EMR, QuickSight | Data warehouse, querying, visualization               |
+| Microsoft Azure | Synapse, Power BI, ML Studio      | Integrated analytics, visualization, machine learning |
+| Google Cloud    | BigQuery, Dataflow, Looker        | Serverless analytics, BI, streaming                   |
+
+---
+
+### **Impact on Businesses**
+
+- Faster & smarter decision-making
+    
+- Operational efficiency
+    
+- Customer behavior analysis
+    
+- Innovation via AI insights
+    
+- Risk detection & compliance monitoring
+    
+
+---
+
+## **Virtual Desktop Infrastructure (VDI)**
+
+**Definition**: Hosting desktop environments on a centralized server and delivering them remotely over a network.
+
+---
+
+### **How VDI Works**
+
+- Virtual machines host desktop OS & apps in data center/cloud
+    
+- Accessed remotely via thin clients or browsers
+    
+- User inputs/output transmitted over network
+    
+- Isolated, secure desktop sessions
+    
+
+---
+
+### **Advantages of VDI**
+
+| **Advantage**               | **Explanation**                               |
+| --------------------------- | --------------------------------------------- |
+| Centralized Management      | Easy to patch, update, monitor from one place |
+| Improved Security           | Data stays in the data center                 |
+| Flexibility & Remote Access | Access desktops from any device/location      |
+| Cost Savings                | Thin clients reduce endpoint cost             |
+| Scalability                 | Provision desktops on demand                  |
+| Disaster Recovery           | Central backups for recovery                  |
+| Consistent User Experience  | Uniform desktop environment                   |
+| BYOD Support                | Safe access from personal devices             |
+
+---
+
+### **Typical Use Cases of VDI**
+
+1. **Remote Work**
+    
+2. **Call Centers**
+    
+3. **Education**
+    
+4. **Healthcare**
+    
+5. **Software Testing**
+    
+6. **Temporary Staff**
+    
+7. **Regulated Industries**
+    
+
+---
+
+### **Types of VDI**
+
+| **Type**               | **Description**                                  | **Best For**               |
+| ---------------------- | ------------------------------------------------ | -------------------------- |
+| **Persistent VDI**     | Dedicated, customized desktop per user           | Developers, power users    |
+| **Non-Persistent VDI** | Shared pool, resets after logout                 | Task workers, call centers |
+| **RDSH**               | Shared server OS session (e.g., Microsoft RDS)   | Lightweight apps           |
+| **Hybrid VDI**         | Mix of persistent & non-persistent based on role | Flexible deployments       |
 
 ---
 
