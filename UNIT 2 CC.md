@@ -624,6 +624,71 @@
 | **Non-Persistent VDI** | Shared pool, resets after logout                 | Task workers, call centers |
 | **RDSH**               | Shared server OS session (e.g., Microsoft RDS)   | Lightweight apps           |
 | **Hybrid VDI**         | Mix of persistent & non-persistent based on role | Flexible deployments       |
+|                        |                                                  |                            |
 
 ---
 
+---
+
+### 🔐 **Information Security in Cloud Services**
+
+**Definition:**  
+Protecting data, applications, and infrastructure in the cloud from threats like unauthorized access, data breaches, and loss.
+
+**Key Aspects:**
+
+- **Data Encryption** (in transit & at rest)
+    
+- **Identity & Access Management (IAM)**
+    
+- **Firewalls & Intrusion Detection**
+    
+- **Compliance Standards** (e.g., ISO, GDPR, HIPAA)
+    
+- **Multi-Factor Authentication (MFA)**
+    
+- **Data Backups & Recovery Plans**
+    
+
+**Cloud Providers’ Role:**
+
+- Offer **built-in security tools**
+    
+- Maintain **physical security** of data centers
+    
+- Share responsibility model: Provider secures the infrastructure; **you secure your data & access**
+    
+
+---
+
+### 💾 **Storage Cloud in Cloud Services**
+
+**Definition:**  
+Cloud-based storage solutions that allow storing and accessing data over the internet.
+
+**Types of Storage:**
+
+1. **Object Storage** – e.g., Amazon S3, Google Cloud Storage  
+    Good for unstructured data (images, backups).
+    
+2. **Block Storage** – e.g., Amazon EBS, Azure Disk  
+    Used with VMs; acts like a physical hard drive.
+    
+3. **File Storage** – e.g., Amazon EFS, Azure Files  
+    File system access over the network (NAS-like).
+    
+
+**Benefits:**
+
+- **Scalability**: Expand as needed
+    
+- **Availability**: Redundant storage across regions
+    
+- **Durability**: Backed by data replication
+    
+- **Cost-Efficient**: Pay-as-you-go model
+    
+
+---
+
+Let me know if you need this in tabular format or want it simplified further for notes.
