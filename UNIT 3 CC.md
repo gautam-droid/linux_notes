@@ -436,3 +436,123 @@ Virtualization contributes to **green computing** and sustainable data centers.
         
 
 ---
+
+---
+
+### 🧠 **Logical Partitioning (LPAR)**
+
+- A **hardware-level virtualization** technique.
+    
+- Mostly used in **IBM mainframes and Power Systems**.
+    
+- Each LPAR behaves like a separate **physical server**.
+    
+- Resources like **CPU, memory, I/O** are allocated to each LPAR.
+    
+- Helps in **server consolidation** (running multiple systems on one physical machine).
+    
+- LPARs are managed using a **hypervisor** (e.g., PowerVM).
+    
+- Enables **high availability** and **security isolation**.
+    
+
+---
+
+### 📦 **Storage Virtualization**
+
+- Abstracts physical storage into **logical storage pools**.
+    
+- Simplifies storage management by presenting **virtual volumes** to users.
+    
+- Enables **non-disruptive upgrades and migrations**.
+    
+- Improves **storage utilization and flexibility**.
+    
+- Can span across multiple vendors and storage types.
+    
+- Used in **cloud storage**, **SAN**, and enterprise systems.
+    
+- Types:
+    
+    - Block-level (e.g., SAN)
+        
+    - File-level (e.g., NAS)
+        
+    - Object-level (e.g., S3)
+        
+
+---
+
+### 🔗 **SAN (Storage Area Network)**
+
+- High-speed network that provides **block-level access** to data.
+    
+- Devices connected using **Fibre Channel or iSCSI**.
+    
+- Storage is accessed like a **local hard disk**, but over a network.
+    
+- Offers **centralized storage management**.
+    
+- Used in **data-intensive environments** (e.g., databases, ERP).
+    
+- More complex and expensive than NAS.
+    
+- Supports features like **data replication, snapshots, RAID**.
+    
+
+---
+
+### 📁 **NAS (Network Attached Storage)**
+
+- Provides **file-level storage** over standard TCP/IP (LAN).
+    
+- Accessed using **protocols like NFS, SMB/CIFS**.
+    
+- Easy to configure and manage, often used in **small to medium businesses**.
+    
+- Ideal for **file sharing, backups, and media streaming**.
+    
+- Can be accessed from multiple devices simultaneously.
+    
+- Less expensive than SAN, but not suitable for **high-performance databases**.
+    
+
+---
+
+### ☁️ **Cloud Server Virtualization**
+
+- Converts a single physical server into multiple **virtual servers (VMs)**.
+    
+- Each VM can run its own **OS and software**.
+    
+- Managed by a **hypervisor** (e.g., VMware, KVM, Hyper-V).
+    
+- Enables **auto-scaling**, **load balancing**, and **high availability**.
+    
+- Common in public cloud platforms like **AWS EC2, Google Compute Engine, Azure VMs**.
+    
+- Supports **multi-tenancy** (multiple users on same hardware).
+    
+- Reduces **hardware costs and operational overhead**.
+    
+
+---
+
+### 🏢 **Virtualized Data Center**
+
+- Entire data center components (compute, storage, network) are **virtualized**.
+    
+- Managed through **software-defined tools** (e.g., VMware vSphere, OpenStack).
+    
+- Enables **faster provisioning** of resources.
+    
+- Reduces **power, cooling, and space requirements**.
+    
+- Facilitates **cloud-ready infrastructure** (private/hybrid cloud).
+    
+- Supports **Disaster Recovery (DR)** and **Business Continuity** plans.
+    
+- Allows **centralized control and monitoring** through virtualization management software.
+    
+
+---
