@@ -436,4 +436,3 @@ Here’s the **keyword extraction** for both topics: **Computing on Demand** and
 
 ---
 
-Let me know if you'd like a table format, visual summary, or the next topic!
